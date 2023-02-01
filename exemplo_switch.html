@@ -7,7 +7,7 @@
   $("#btnSave").click(function() {
     var selectedOption = $("#selectList option:selected").text();
     var selectedOptionImage = "";
-    
+  //Incêndio, Rasgo de Correia, Queda/Projeção, Romp. Cabo Elétric. Colisão
     switch (selectedOption) {
       case "Option 1":
         selectedOptionImage = "Option1.png";
@@ -36,10 +36,13 @@
   </script>
 </head>
 <body>
+  /*Incêndio, Rasgo de Correia, Queda/Projeção, Romp. Cabo Elétric., Colisão*/
   <select id="selectList">
-    <option value="value1">Option 1</option>
-    <option value="value2">Option 2</option>
-    <option value="value3">Option 3</option>
+    <option value="value1">Incêndio</option>
+    <option value="value2">Rasgo de Correia</option>
+    <option value="value3">Queda/Projeção</option>
+    <option value="value4">Romp. Cabo Elétric.</option>
+    <option value="value5">Colisão</option>
   </select>
   <button id="btnSave">Save as Image</button>
 </body>
