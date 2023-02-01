@@ -1,0 +1,48 @@
+#addIcones {
+position: absolute;
+top:0;
+left:10;
+}
+#layoutSr { 
+background-image: url("../IMG/layoutSerraSul.jfif");
+background-color: #000;
+width:4081px;
+height:2842px;
+}
+
+.icone {
+background-color: green;
+width:100px;
+height:100px;
+}
+
+
+.capaceteIco, .NCAMenIco, .NCAMaiIco, .eventoApIco, .eventograveIco, .eventongraveIco {
+position: absolute;
+top:50px;
+left: 50px;
+}
+
+.ui-tooltip {
+background-color: red;
+font-size:60px;
+}
+
+.tabelaUmaColuna, .tabelaDuasColunas, .tabelaTresColunas, .tabelaQuatroColunas {
+    border: orange solid 4px;
+    border-radius: 10px;
+}
+
+th {
+    background-color: orange;
+    color: #fff;
+    font-size: 1.5em;
+    padding:3px;
+    border-radius: 10px;
+}
+
+#copialayoutSr {
+    background-color: yellow;
+    width: 400px;
+    height: 600px;
+}

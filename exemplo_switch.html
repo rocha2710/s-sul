@@ -1,0 +1,46 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+  <script>
+    $(document).ready(function() {
+  $("#btnSave").click(function() {
+    var selectedOption = $("#selectList option:selected").text();
+    var selectedOptionImage = "";
+    
+    switch (selectedOption) {
+      case "Option 1":
+        selectedOptionImage = "Option1.png";
+        break;
+      case "Option 2":
+        selectedOptionImage = "Option2.png";
+        break;
+      case "Option 3":
+        selectedOptionImage = "Option3.png";
+        break;
+      case "Option 4":
+        selectedOptionImage = "Option4.png";
+        break;
+      case "Option 5":
+        selectedOptionImage = "Option5.png";
+        break;
+      default:
+        selectedOptionImage = "";
+        break;
+    }
+    
+    $("#selectList").replaceWith("<img src='" + selectedOptionImage + "'>");
+  });
+});
+
+  </script>
+</head>
+<body>
+  <select id="selectList">
+    <option value="value1">Option 1</option>
+    <option value="value2">Option 2</option>
+    <option value="value3">Option 3</option>
+  </select>
+  <button id="btnSave">Save as Image</button>
+</body>
+</html>

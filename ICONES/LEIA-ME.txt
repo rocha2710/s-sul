@@ -1,0 +1,3 @@
+Esta pasta Icones fica responsável por armazenar as imagens que serão usadas no mapa de calor e devem ter os seguintes nomes:
+CAPACETE: capacete.png
+ETC (..)
